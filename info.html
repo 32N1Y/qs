@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="robots" content="all">
+		<meta name="Keywords" content="茜色世界中与君咏唱；茜60；茜世界；茜色国服；乙女；女性向；恋爱；安倍晴明；高杉晋作；梦100；梦王国；手游；游戏；声优；消消乐；帅哥；日本；历史；" />
+		<meta name="Description" content="《茜色世界中与君咏唱》是一款二次元女性向乙女手游。你将作为太阳巫女，降临在一个太阳无法升起的异世界——日之许。在日之许，生活着许多与日本历史上诸多伟人同名的“月读男子”，如高杉晋作、安倍晴明、织田信长等。你将与他们逐一相遇，一同肩负起重新寻回太阳的重任，并在旅途中与月读男子相知、相爱……" />
+		<title>茜色世界中与君咏唱</title>
+		<link rel="icon" href="images/icon.ico" />
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="common/common.css" />
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<header>
+			<script>
+				$('header').load("common/head.html");
+			</script>
+		</header>
+		<div class="info">
+			<div class="banner"></div>
+			<div class="info_center">
+				<div class="current_location">您当前的位置：<a href="index.html?type=home">首页</a> &gt; <a href="index.html?type=news">最新情报</a> &gt; 活动情报</div>
+				<div class="info_inner">
+					<div class="info_title">
+						<h2>《茜色世界与君咏唱》维护更新公告</h2>
+						<small>发布时间：<time>2018-09-11</time></small>
+					</div>
+					<div class="info_detail">
+						亲爱的巫女大人：
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱，9月12日维护更新公告茜色世界
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<footer>
+			<script>
+				$('footer').load("common/foot.html");
+			</script>
+		</footer>
+		
+		<!--关注-->
+		<div class="attention">
+			<script>
+				$('.attention').load("common/sidebar.html");
+			</script>
+		</div>
+		
+		<script type="text/javascript" src="js/index.js" ></script>
+		<script>
+			$(function(){
+				$('.nav_news').addClass('active').siblings().removeClass('active');
+				$('.nav_item').unbind('click').bind('click',  function(){
+					var type = $(this).data('type');
+					window.location.href = "index.html?type=" + type;
+				})
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,110 @@
+/*window*/
+body,div,h1,h2,h3,h4,h5,h6,p,blockquote,pre,code,del,dfn,em,img,strong,dd,dl,dt,li,ol,ul,fieldset,form,label,button,input,table,caption,tbody,tfoot,thead,tr,th,td,header,footer,menu,a,span,i,b {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul,menu {
+    list-style: none
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+a:focus {
+    outline: none
+}
+input,button,img,select,textarea {
+    border: 0;
+    outline: none;
+    font-size: 100%;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top
+}
+em,i {
+    font-style: normal;
+}
+img {
+    vertical-align: middle;
+}
+body {
+    font-family: "微软雅黑";
+    }
+.clearfix:after{
+  content: "020"; 
+  display: block; 
+  clear: both; 
+  height: 0;
+  visibility: hidden;  
+  }
+
+.clearfix {
+  /* 触发 hasLayout */ 
+  zoom: 1; 
+  }
+  
+/*! 遮罩层 */  
+ .mask{
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     left: 0;
+     top: 0;
+     background: rgba(0,0,0,0.7);
+     display: none;
+     z-index: 999;
+ } 
+ 
+.float_left{
+    float: left;
+    display: inline-block;
+}
+.float_right{
+    float: right;
+    display: inline-block;
+}
+.text_uppercase{
+    text-transform: uppercase;
+}
+.middle_center{
+	display:-webkit-box; 
+	-webkit-box-orient:horizontal; 
+	-webkit-box-pack:center; 
+	-webkit-box-align:center; 
+	display:-moz-box; 
+	-moz-box-orient:horizontal; 
+	-moz-box-pack:center; 
+	-moz-box-align:center; 
+	display:-o-box; 
+	-o-box-orient:horizontal; 
+	-o-box-pack:center; 
+	-o-box-align:center; 
+	display:-ms-box; 
+	-ms-box-orient:horizontal; 
+	-ms-box-pack:center; 
+	-ms-box-align:center; 
+	display:box; 
+	box-orient:horizontal; 
+	box-pack:center; 
+	box-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

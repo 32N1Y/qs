@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="format-detection" content="telephone=no"> 
+		<meta content="yes" name="mobile-web-app-capable">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta name="robots" content="all">
+		<meta name="Keywords" content="茜色世界中与君咏唱；茜60；茜世界；茜色国服；乙女；女性向；恋爱；安倍晴明；高杉晋作；梦100；梦王国；手游；游戏；声优；消消乐；帅哥；日本；历史；" />
+		<meta name="Description" content="《茜色世界中与君咏唱》是一款二次元女性向乙女手游。你将作为太阳巫女，降临在一个太阳无法升起的异世界——日之许。在日之许，生活着许多与日本历史上诸多伟人同名的“月读男子”，如高杉晋作、安倍晴明、织田信长等。你将与他们逐一相遇，一同肩负起重新寻回太阳的重任，并在旅途中与月读男子相知、相爱……" />
+		<title>茜色世界中与君咏唱</title>
+		<link rel="icon" href="../images/icon.ico" />
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="../css/animate.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/resize.js" ></script>
+	</head>
+	<body>
+		<div class="top_btn">
+			<a class="btn_download" href="javascript:;"><img src="images/btn_downLoad.png" alt="下载" width="100%"/></a>
+			<a class="btn_menu" href="javascript:;"><img src="images/btn_menu.png" alt="菜单" width="100%"/></a>
+		</div>
+		<div class="info">
+			<div class="banner"><img src="images/banner.jpg" alt="banner" width="100%"/></div>
+			<div class="info_center">
+				<div class="current_location">您当前的位置：<a href="index.html?type=0">首页</a> &gt; <a href="index.html?type=4">最新情报</a> &gt; 活动情报</div>
+				<div class="info_inner">
+					<div class="info_title">
+						<h2>《茜色世界与君咏唱》维护更新公告</h2>
+						<small>发布时间：<time>2018-09-11</time></small>
+					</div>
+					<div class="info_detail">
+						亲爱的巫女大人：
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱，9月12日维护更新公告茜色世界
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱亲爱的巫女大人：
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱，
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱，
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱，
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱，
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱
+茜色世界与君咏唱，9月12日维护更新公告茜色世界与君咏唱，
+茜色世界与君咏唱，
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--遮罩层-->
+		<div class="mask"></div>
+		<!--菜单-->
+		<div class="nav_box mask_box">
+			<img src="images/nav_bg.png" width="100%"/>
+			<div class="nav_con">
+				<a class="nav_item nav_home active" href="javascript:;" title="官网首页"><span class="nav_tag">官网首页</span></a>
+				<a class="nav_item nav_world " href="javascript:;" title="茜色世界"><span class="nav_tag">茜色世界</span></a>
+				<a class="nav_item nav_roles " href="javascript:;" title="男子物语"><span class="nav_tag">男子物语</span></a>
+				<a class="nav_item nav_attention " href="javascript:;" title="关注我们"><span class="nav_tag">关注我们</span></a>
+				<a class="nav_item nav_news " href="javascript:;" title="最新情报"><span class="nav_tag">最新情报</span></a>
+				<a class="nav_item nav_view " href="javascript:;" title="光影重现"><span class="nav_tag">光影重现</span></a>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		<script>
+			$(function(){
+				$('.nav_news').addClass('active').siblings().removeClass('active');
+				$('.nav_item').unbind('click').bind('click',  function(){
+					var index = $(this).index();
+					changeMenu(this);
+					window.location.href = "index.html?type=" + index;
+				})
+			})
+		</script>
+	</body>
+</html>
